@@ -59,7 +59,7 @@ namespace code.utility.iteration
         var instance = lambda.Compile();
         instance(2).ShouldBeTrue();
       };
-
+        
       static Person person;
     }
   }
